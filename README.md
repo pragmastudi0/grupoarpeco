@@ -29,7 +29,11 @@ python3 -m http.server 8765
 # abrir http://localhost:8765/index.html
 ```
 
-Es un sitio estático. Para una vista previa, configurar `prototipo/` como directorio de publicación en un hosting estático. Todas las páginas tienen `noindex` y un aviso de "prototipo".
+Es un sitio estático. En otros servicios de hosting, configurar `prototipo/` como directorio de publicación. Todas las páginas tienen `noindex` y un aviso de "prototipo".
+
+### Vista previa en Vercel
+
+Importar `pragmastudi0/grupoarpeco` en Vercel con la raíz del repositorio como Root Directory y Framework Preset `Other`. `vercel.json` publica únicamente `prototipo/` como Output Directory; no se necesita comando de build. El sitio queda disponible desde `/` y mantiene su estado de prototipo.
 
 Para cambiar textos o proyectos, editar `prototipo/build.py` (lista `P` y bloques de cada página) y ejecutar `python3 build.py`.
 
