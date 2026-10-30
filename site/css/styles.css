@@ -91,13 +91,18 @@ p { margin: 0 0 1em; max-width: 64ch; }
 .menu-btn svg { width: 28px; height: 28px; }
 
 @media (max-width: 960px) {
+  body.menu-abierto { overflow: hidden; }
   .nav, .header .btn-primario { display: none; }
   .menu-btn { display: inline-flex; align-items: center; justify-content: center; }
   .header .wrap { height: 64px; }
   .header .logo img { height: 36px; }
   .nav.abierto {
     display: flex; flex-direction: column; gap: 0;
-    position: fixed; inset: 64px 0 0 0; background: #fff; padding: 16px var(--gutter);
+    position: absolute; top: 100%; left: 0; right: 0;
+    height: calc(100vh - 64px); height: calc(100dvh - 64px);
+    overflow-y: auto; overscroll-behavior: contain;
+    background: #fff; padding: 16px var(--gutter) max(24px, env(safe-area-inset-bottom));
+    box-shadow: 0 16px 24px rgba(15, 42, 61, .12);
   }
   .nav.abierto a { font-size: 26px; font-stretch: 75%; font-weight: 700; padding: 14px 0; border-bottom: 1px solid var(--linea); }
   .nav.abierto .nav-cta { display: flex; margin-top: 20px; border: 0; justify-content: center; color: #fff; font-size: 18px; font-stretch: 100%; }

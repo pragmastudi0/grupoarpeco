@@ -94,12 +94,22 @@ with sync_playwright() as p:
     check(not m.is_visible("#nav a[href='stands.html']"), "móvil: menú cerrado al cargar")
     m.click(".menu-btn")
     check(m.is_visible("#nav a[href='stands.html']") and m.get_attribute(".menu-btn", "aria-expanded") == "true", "móvil: menú abre")
+    check(m.locator("#nav").bounding_box()["height"] >= 700 and m.evaluate("getComputedStyle(document.body).overflow") == "hidden",
+          "móvil: menú ocupa la pantalla sin superponerse al contenido")
+    m.keyboard.press("Escape")
+    check(not m.is_visible("#nav a[href='stands.html']") and m.get_attribute(".menu-btn", "aria-expanded") == "false", "móvil: Escape cierra menú")
+    m.click(".menu-btn")
     m.click("#nav a[href='proyectos.html']"); m.wait_for_load_state()
     check(m.url.endswith("proyectos.html"), "móvil: navegación desde menú")
     for name in PAGES:
         m.goto(BASE + name, wait_until="networkidle")
         sw = m.evaluate("document.documentElement.scrollWidth")
         check(sw <= 390, f"móvil {name}: sin scroll horizontal ({sw}px)")
+    narrow = b.new_context(viewport={"width": 320, "height": 568}, is_mobile=True, has_touch=True).new_page()
+    narrow.goto(BASE + "index.html", wait_until="networkidle")
+    narrow.click(".menu-btn")
+    check(narrow.locator("#nav").bounding_box()["height"] >= 500 and narrow.is_visible("#nav .nav-cta"),
+          "móvil angosto: menú y CTA visibles")
     b.close()
 
 print(f"\n{len(fails)} fallas")

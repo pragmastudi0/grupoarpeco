@@ -1,11 +1,16 @@
 // Menú móvil
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.getElementById("nav");
-menuBtn.addEventListener("click", () => {
-  const abierto = nav.classList.toggle("abierto");
+const setMenu = (abierto) => {
+  nav.classList.toggle("abierto", abierto);
+  document.body.classList.toggle("menu-abierto", abierto);
   menuBtn.setAttribute("aria-expanded", abierto);
   menuBtn.setAttribute("aria-label", abierto ? "Cerrar menú" : "Abrir menú");
-});
+  menuBtn.querySelector("path").setAttribute("d", abierto ? "M5 5l14 14M19 5L5 19" : "M4 7h16M4 12h16M4 17h16");
+};
+menuBtn.addEventListener("click", () => setMenu(!nav.classList.contains("abierto")));
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
+window.addEventListener("resize", () => { if (window.innerWidth > 960) setMenu(false); });
 
 const params = new URLSearchParams(location.search);
 
