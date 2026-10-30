@@ -1,8 +1,8 @@
-"""Genera las páginas estáticas del prototipo. Uso: python3 build.py"""
+"""Genera las páginas estáticas del sitio. Uso: python3 scripts/build_site.py"""
 from pathlib import Path
 from urllib.parse import quote
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent.parent / "site"
 WA_NUM = "5493515639656"   # número publicado en el botón Joinchat del sitio actual
 WA_VISIBLE = "+54 9 351 563-9656"
 
@@ -87,13 +87,11 @@ def page(fname, title, desc, body, current=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<meta name="robots" content="noindex">
 <link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="icon" href="img/isotipo.png">
 </head>
 <body>
-<div class="demo-aviso">Prototipo de rediseño preparado por PRAGMA Studio para Grupo Arpeco. No es el sitio oficial.</div>
 <header class="header">
   <div class="wrap">
     <a class="logo" href="index.html"><img src="img/logo.png" alt="Grupo Arpeco, inicio" width="98" height="44"></a>
@@ -418,7 +416,7 @@ nosotros = f'''
 <section class="seccion">
   <div class="wrap encabezado" style="margin-bottom:0">
     <h2>Dónde trabajamos</h2>
-    <p class="lead">Proyectos en toda la Argentina y países limítrofes. <span class="a-completar">Dirección del taller: a completar por Grupo Arpeco</span></p>
+    <p class="lead">Proyectos en toda la Argentina y países limítrofes. Contanos dónde necesitás que trabajemos y te asesoramos sobre el alcance.</p>
   </div>
 </section>
 {cta()}
@@ -433,7 +431,7 @@ contacto = f'''
   <div class="wrap">
     <p class="miga"><a href="index.html">Inicio</a> / Contacto</p>
     <h1>Pedí tu presupuesto</h1>
-    <p class="lead">Completá lo que sepas. Te respondemos por el medio que elijas.</p>
+    <p class="lead">Completá los datos de tu proyecto y prepararemos tu consulta para enviarla por WhatsApp.</p>
   </div>
 </section>
 <section class="seccion" style="padding-top:0">
@@ -449,30 +447,29 @@ contacto = f'''
             <input type="radio" name="tipo" id="t-res" value="residencial"><label for="t-res">Residencial</label>
           </div>
         </fieldset>
-        <div class="campo"><label for="nombre">Nombre y apellido</label><input id="nombre" name="nombre" autocomplete="name" required><p class="error" id="e-nombre">Escribí tu nombre.</p></div>
-        <div class="campo"><label for="empresa">Empresa o marca <span class="opcional">(opcional)</span></label><input id="empresa" name="empresa" autocomplete="organization"></div>
-        <div class="campo"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><p class="error" id="e-email">Escribí un email válido, por ejemplo nombre@empresa.com.</p></div>
-        <div class="campo"><label for="tel">Teléfono o WhatsApp</label><input id="tel" name="tel" type="tel" autocomplete="tel" required><p class="error" id="e-tel">Escribí un teléfono para coordinar.</p></div>
-        <div class="campo" data-solo="stand"><label for="evento">Feria o evento <span class="opcional">(opcional)</span></label><input id="evento" name="evento" placeholder="Nombre y ciudad"></div>
+        <div class="campo"><label for="nombre">Nombre y apellido</label><input id="nombre" name="nombre" autocomplete="name" maxlength="100" required><p class="error" id="e-nombre">Escribí tu nombre.</p></div>
+        <div class="campo"><label for="empresa">Empresa o marca <span class="opcional">(opcional)</span></label><input id="empresa" name="empresa" autocomplete="organization" maxlength="100"></div>
+        <div class="campo"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" maxlength="150" required><p class="error" id="e-email">Escribí un email válido, por ejemplo nombre@empresa.com.</p></div>
+        <div class="campo"><label for="tel">Teléfono o WhatsApp</label><input id="tel" name="tel" type="tel" autocomplete="tel" maxlength="30" required><p class="error" id="e-tel">Escribí un teléfono para coordinar.</p></div>
+        <div class="campo" data-solo="stand"><label for="evento">Feria o evento <span class="opcional">(opcional)</span></label><input id="evento" name="evento" placeholder="Nombre y ciudad" maxlength="120"></div>
         <div class="campo"><label for="fecha">Fecha estimada <span class="opcional">(opcional)</span></label><input id="fecha" name="fecha" type="month"></div>
         <div class="campo"><label for="m2">Superficie aproximada <span class="opcional">(opcional)</span></label><select id="m2" name="m2"><option value="">Elegí un rango</option><option>Hasta 20 m²</option><option>20 a 50 m²</option><option>50 a 100 m²</option><option>Más de 100 m²</option><option>No lo sé todavía</option></select></div>
-        <div class="campo"><label for="ciudad">Ciudad del proyecto <span class="opcional">(opcional)</span></label><input id="ciudad" name="ciudad" autocomplete="address-level2"></div>
-        <div class="campo full"><label for="mensaje">Contanos el proyecto</label><textarea id="mensaje" name="mensaje" placeholder="Qué querés lograr, referencias, plazos"></textarea></div>
-        <div class="full acciones" style="align-items:center"><button class="btn btn-primario" type="submit">Enviar pedido de presupuesto</button>
-        <p class="form-nota">Prototipo: el formulario valida los datos pero no envía nada.</p></div>
+        <div class="campo"><label for="ciudad">Ciudad del proyecto <span class="opcional">(opcional)</span></label><input id="ciudad" name="ciudad" autocomplete="address-level2" maxlength="100"></div>
+        <div class="campo full"><label for="mensaje">Contanos el proyecto</label><textarea id="mensaje" name="mensaje" placeholder="Qué querés lograr, referencias, plazos" maxlength="1000"></textarea></div>
+        <div class="full acciones" style="align-items:center"><button class="btn btn-primario" type="submit">Continuar en WhatsApp</button>
+        <p class="form-nota">Se abrirá WhatsApp con tu consulta. Revisá el mensaje y pulsá Enviar allí para contactar a Grupo Arpeco.</p></div>
       </form>
-      <div class="confirmacion" id="confirmacion" role="status" tabindex="-1">
-        <h3>Pedido de presupuesto enviado</h3>
-        <p>En el sitio real, aquí se confirmaría la recepción y el plazo de respuesta. En este prototipo no se envió ningún dato.</p>
-        <button class="btn btn-borde" type="button" id="otro">Volver al formulario</button>
+      <div class="confirmacion" id="confirmacion" role="status" tabindex="-1" hidden>
+        <h3>Tu consulta está lista</h3>
+        <p>Para enviarla a Grupo Arpeco, abrí WhatsApp y pulsá Enviar. Si no se abrió automáticamente, usá este botón:</p>
+        <a class="btn btn-wa" id="abrir-whatsapp" href="{wa()}" target="_blank" rel="noopener">{ICON_WA}Abrir WhatsApp</a>
+        <button class="btn btn-borde" type="button" id="otro">Editar datos</button>
       </div>
     </div>
     <aside class="datos">
       <h3>Hablemos directo</h3>
       <dl>
         <dt>WhatsApp</dt><dd><a href="{wa()}" target="_blank" rel="noopener">{WA_VISIBLE}</a></dd>
-        <dt>Email comercial</dt><dd><span class="a-completar">A completar por Grupo Arpeco</span></dd>
-        <dt>Taller y oficina</dt><dd><span class="a-completar">A completar por Grupo Arpeco</span></dd>
         <dt>Zona de trabajo</dt><dd>Argentina y países limítrofes</dd>
       </dl>
       <a class="btn btn-wa" href="{wa()}" target="_blank" rel="noopener">{ICON_WA}Escribir por WhatsApp</a>
@@ -481,6 +478,6 @@ contacto = f'''
 </section>
 '''
 page("contacto.html", "Pedir presupuesto | Grupo Arpeco",
-     "Pedí presupuesto para tu stand, local comercial o interiores. Respuesta por WhatsApp o email.",
+     "Pedí presupuesto para tu stand, local comercial o interiores y envianos los detalles por WhatsApp.",
      contacto, "contacto.html")
 print("ok")

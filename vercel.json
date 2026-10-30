@@ -1,4 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "prototipo"
+  "outputDirectory": "site",
+  "redirects": [
+    { "source": "/stands", "destination": "/stands.html", "permanent": true },
+    { "source": "/stands/", "destination": "/stands.html", "permanent": true },
+    { "source": "/locales", "destination": "/locales.html", "permanent": true },
+    { "source": "/locales/", "destination": "/locales.html", "permanent": true },
+    { "source": "/nosotros", "destination": "/nosotros.html", "permanent": true },
+    { "source": "/nosotros/", "destination": "/nosotros.html", "permanent": true },
+    { "source": "/formulario", "destination": "/contacto.html", "permanent": true },
+    { "source": "/formulario/", "destination": "/contacto.html", "permanent": true }
+  ]
 }

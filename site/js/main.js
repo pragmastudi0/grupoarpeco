@@ -32,11 +32,11 @@ if (grilla) {
   aplicar([...botones].some((b) => b.dataset.f === inicial) ? inicial : "todos");
 }
 
-// Formulario de presupuesto (demostrativo: valida, no envía)
+// El formulario prepara la consulta y abre WhatsApp; el visitante confirma el envío allí.
 const form = document.getElementById("form-presupuesto");
 if (form) {
   const tipo = params.get("tipo");
-  const radio = tipo && form.querySelector(`input[name=tipo][value="${tipo}"]`);
+  const radio = [...form.querySelectorAll('input[name="tipo"]')].find((r) => r.value === tipo);
   if (radio) radio.checked = true;
 
   const campoEvento = form.querySelector('[data-solo="stand"]');
@@ -67,18 +67,34 @@ if (form) {
   });
 
   const conf = document.getElementById("confirmacion");
+  const enlaceWa = document.getElementById("abrir-whatsapp");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const malos = Object.keys(reglas).filter((id) => !validar(id));
     if (malos.length) { form.elements[malos[0]].focus(); return; }
+    const valor = (id) => form.elements[id].value.trim();
+    const tipos = { stand: "Stand para feria", local: "Local comercial", interior: "Interiores", residencial: "Residencial" };
+    const lineas = [
+      "Hola, quiero solicitar un presupuesto a Grupo Arpeco.",
+      `Proyecto: ${tipos[valor("tipo")]}`,
+      `Nombre: ${valor("nombre")}`,
+      `Email: ${valor("email")}`,
+      `Teléfono: ${valor("tel")}`,
+    ];
+    for (const [id, etiqueta] of [["empresa", "Empresa o marca"], ["evento", "Feria o evento"], ["fecha", "Fecha estimada"], ["m2", "Superficie"], ["ciudad", "Ciudad"], ["mensaje", "Detalles"]]) {
+      if (id === "evento" && valor("tipo") !== "stand") continue;
+      if (valor(id)) lineas.push(`${etiqueta}: ${valor(id)}`);
+    }
+    const url = `https://wa.me/5493515639656?text=${encodeURIComponent(lineas.join("\n"))}`;
+    enlaceWa.href = url;
     form.hidden = true;
-    conf.classList.add("visible");
+    conf.hidden = false;
     conf.focus();
+    window.open(url, "_blank", "noopener,noreferrer");
   });
   document.getElementById("otro").addEventListener("click", () => {
-    conf.classList.remove("visible");
+    conf.hidden = true;
     form.hidden = false;
-    form.reset();
-    sync();
+    form.elements.nombre.focus();
   });
 }

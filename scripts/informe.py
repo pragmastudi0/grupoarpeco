@@ -51,7 +51,7 @@ for n in ["locales", "proyectos", "nosotros"]:
     I[f"d_{n}_fold"] = prep(f"d-{n}-fold", D / f"{n}-desktop-fold.png", 36, 800, 1200)
 I["d_proceso"] = prep("d-proceso", D / "seccion-proceso-desktop.png")
 
-FONT = (ROOT / "prototipo/fonts/archivo-latin-wdth-normal.woff2").as_uri()
+FONT = (ROOT / "site/fonts/archivo-latin-wdth-normal.woff2").as_uri()
 
 def marker(n, x, y):
     """Marker positioned in % over an annotated screenshot."""
