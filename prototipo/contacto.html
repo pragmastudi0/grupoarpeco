@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedir presupuesto | Grupo Arpeco</title>
+<meta name="description" content="Pedí presupuesto para tu stand, local comercial o interiores. Respuesta por WhatsApp o email.">
+<meta name="robots" content="noindex">
+<link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="img/isotipo.png">
+</head>
+<body>
+<div class="demo-aviso">Prototipo de rediseño preparado por PRAGMA Studio para Grupo Arpeco. No es el sitio oficial.</div>
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="Grupo Arpeco, inicio" width="98" height="44"></a>
+    <nav class="nav" id="nav" aria-label="Principal"><a href="stands.html">Stands</a><a href="locales.html">Locales e interiores</a><a href="proyectos.html">Proyectos</a><a href="nosotros.html">Nosotros</a><a href="contacto.html" aria-current="page">Contacto</a><a class="btn btn-primario nav-cta" href="contacto.html">Pedir presupuesto</a></nav>
+    <a class="btn btn-primario" href="contacto.html">Pedir presupuesto</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main>
+
+<section class="pagina-titulo">
+  <div class="wrap">
+    <p class="miga"><a href="index.html">Inicio</a> / Contacto</p>
+    <h1>Pedí tu presupuesto</h1>
+    <p class="lead">Completá lo que sepas. Te respondemos por el medio que elijas.</p>
+  </div>
+</section>
+<section class="seccion" style="padding-top:0">
+  <div class="wrap contacto">
+    <div>
+      <form class="form" id="form-presupuesto" novalidate>
+        <fieldset class="campo full">
+          <legend>¿Qué necesitás?</legend>
+          <div class="chips">
+            <input type="radio" name="tipo" id="t-stand" value="stand" checked><label for="t-stand">Stand para feria</label>
+            <input type="radio" name="tipo" id="t-local" value="local"><label for="t-local">Local comercial</label>
+            <input type="radio" name="tipo" id="t-interior" value="interior"><label for="t-interior">Interiores</label>
+            <input type="radio" name="tipo" id="t-res" value="residencial"><label for="t-res">Residencial</label>
+          </div>
+        </fieldset>
+        <div class="campo"><label for="nombre">Nombre y apellido</label><input id="nombre" name="nombre" autocomplete="name" required><p class="error" id="e-nombre">Escribí tu nombre.</p></div>
+        <div class="campo"><label for="empresa">Empresa o marca <span class="opcional">(opcional)</span></label><input id="empresa" name="empresa" autocomplete="organization"></div>
+        <div class="campo"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><p class="error" id="e-email">Escribí un email válido, por ejemplo nombre@empresa.com.</p></div>
+        <div class="campo"><label for="tel">Teléfono o WhatsApp</label><input id="tel" name="tel" type="tel" autocomplete="tel" required><p class="error" id="e-tel">Escribí un teléfono para coordinar.</p></div>
+        <div class="campo" data-solo="stand"><label for="evento">Feria o evento <span class="opcional">(opcional)</span></label><input id="evento" name="evento" placeholder="Nombre y ciudad"></div>
+        <div class="campo"><label for="fecha">Fecha estimada <span class="opcional">(opcional)</span></label><input id="fecha" name="fecha" type="month"></div>
+        <div class="campo"><label for="m2">Superficie aproximada <span class="opcional">(opcional)</span></label><select id="m2" name="m2"><option value="">Elegí un rango</option><option>Hasta 20 m²</option><option>20 a 50 m²</option><option>50 a 100 m²</option><option>Más de 100 m²</option><option>No lo sé todavía</option></select></div>
+        <div class="campo"><label for="ciudad">Ciudad del proyecto <span class="opcional">(opcional)</span></label><input id="ciudad" name="ciudad" autocomplete="address-level2"></div>
+        <div class="campo full"><label for="mensaje">Contanos el proyecto</label><textarea id="mensaje" name="mensaje" placeholder="Qué querés lograr, referencias, plazos"></textarea></div>
+        <div class="full acciones" style="align-items:center"><button class="btn btn-primario" type="submit">Enviar pedido de presupuesto</button>
+        <p class="form-nota">Prototipo: el formulario valida los datos pero no envía nada.</p></div>
+      </form>
+      <div class="confirmacion" id="confirmacion" role="status" tabindex="-1">
+        <h3>Pedido de presupuesto enviado</h3>
+        <p>En el sitio real, aquí se confirmaría la recepción y el plazo de respuesta. En este prototipo no se envió ningún dato.</p>
+        <button class="btn btn-borde" type="button" id="otro">Volver al formulario</button>
+      </div>
+    </div>
+    <aside class="datos">
+      <h3>Hablemos directo</h3>
+      <dl>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/5493515639656?text=Hola%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">+54 9 351 563-9656</a></dd>
+        <dt>Email comercial</dt><dd><span class="a-completar">A completar por Grupo Arpeco</span></dd>
+        <dt>Taller y oficina</dt><dd><span class="a-completar">A completar por Grupo Arpeco</span></dd>
+        <dt>Zona de trabajo</dt><dd>Argentina y países limítrofes</dd>
+      </dl>
+      <a class="btn btn-wa" href="https://wa.me/5493515639656?text=Hola%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3c.2-.4.2-.9.2-1-.1-.1-.3-.2-.5-.3Z"/></svg>Escribir por WhatsApp</a>
+    </aside>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <img src="img/logo-blanco.png" alt="Grupo Arpeco" width="98" height="44">
+      <p>Diseño, fabricación y montaje de stands, locales comerciales e interiores. Desde 2009.</p>
+    </div>
+    <div>
+      <h2>Servicios</h2>
+      <ul><li><a href="stands.html">Stands para ferias</a></li><li><a href="locales.html">Locales comerciales</a></li><li><a href="locales.html#interiores">Interiores</a></li><li><a href="proyectos.html?f=residencial">Residencial</a></li></ul>
+    </div>
+    <div>
+      <h2>Estudio</h2>
+      <ul><li><a href="proyectos.html">Proyectos</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+    </div>
+    <div>
+      <h2>Contacto</h2>
+      <ul><li><a href="https://wa.me/5493515639656?text=Hola%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">WhatsApp +54 9 351 563-9656</a></li>
+      <li><a href="https://www.instagram.com/grupo_arpeco/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://www.facebook.com/GrupoArpeco" target="_blank" rel="noopener">Facebook</a></li></ul>
+    </div>
+    <p class="legal">© Grupo Arpeco. Argentina y países limítrofes.</p>
+  </div>
+</footer>
+<a class="wa-flotante" href="https://wa.me/5493515639656?text=Hola%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3c.2-.4.2-.9.2-1-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+PASS index.html: un único H1
+PASS index.html: meta description
+PASS index.html: todas las imágenes con alt (0 sin alt)
+PASS index.html: sin enlaces vacíos o '#'
+PASS stands.html: un único H1
+PASS stands.html: meta description
+PASS stands.html: todas las imágenes con alt (0 sin alt)
+PASS stands.html: sin enlaces vacíos o '#'
+PASS locales.html: un único H1
+PASS locales.html: meta description
+PASS locales.html: todas las imágenes con alt (0 sin alt)
+PASS locales.html: sin enlaces vacíos o '#'
+PASS proyectos.html: un único H1
+PASS proyectos.html: meta description
+PASS proyectos.html: todas las imágenes con alt (0 sin alt)
+PASS proyectos.html: sin enlaces vacíos o '#'
+PASS nosotros.html: un único H1
+PASS nosotros.html: meta description
+PASS nosotros.html: todas las imágenes con alt (0 sin alt)
+PASS nosotros.html: sin enlaces vacíos o '#'
+PASS contacto.html: un único H1
+PASS contacto.html: meta description
+PASS contacto.html: todas las imágenes con alt (0 sin alt)
+PASS contacto.html: sin enlaces vacíos o '#'
+PASS enlace interno /contacto.html
+PASS enlace interno /contacto.html?tipo=local
+PASS enlace interno /contacto.html?tipo=stand
+PASS enlace interno /index.html
+PASS enlace interno /locales.html
+PASS enlace interno /locales.html#interiores
+PASS enlace interno /nosotros.html
+PASS enlace interno /proyectos.html
+PASS enlace interno /proyectos.html?f=residencial
+PASS enlace interno /stands.html
+Externos (no se navegan): ['https://wa.me/5493515639656?text=Hola%2C%20quiero%20consultar%20por%20el%20dise%C3%B1o%20de%20un%20local%20comercial.', 'https://wa.me/5493515639656?text=Hola%2C%20quiero%20cotizar%20un%20stand%20para%20una%20feria.', 'https://wa.me/5493515639656?text=Hola%2C%20quiero%20pedir%20un%20presupuesto.', 'https://www.facebook.com/GrupoArpeco', 'https://www.instagram.com/grupo_arpeco/']
+PASS externos solo WhatsApp/Instagram/Facebook del cliente
+PASS filtro stands (9/21)
+PASS filtro marca aria-pressed
+PASS parámetro ?f=residencial filtra al cargar
+PASS ?tipo=local preselecciona Local comercial
+PASS campo Feria oculto si no es stand
+PASS envío vacío muestra errores
+PASS foco va al primer error
+PASS email inválido bloquea envío
+PASS envío válido muestra confirmación
+PASS Volver al formulario funciona
+PASS sin errores JS ni recursos 4xx/5xx []
+PASS móvil: menú cerrado al cargar
+PASS móvil: menú abre
+PASS móvil: navegación desde menú
+PASS móvil index.html: sin scroll horizontal (390px)
+PASS móvil stands.html: sin scroll horizontal (390px)
+PASS móvil locales.html: sin scroll horizontal (390px)
+PASS móvil proyectos.html: sin scroll horizontal (390px)
+PASS móvil nosotros.html: sin scroll horizontal (390px)
+PASS móvil contacto.html: sin scroll horizontal (390px)
+
+0 fallas
