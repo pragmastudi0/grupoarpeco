@@ -38,7 +38,7 @@ Para cambiar textos o proyectos, editar `prototipo/build.py` (lista `P` y bloque
 - El formulario de contacto solo valida y muestra una confirmación local; no envía mensajes. Se necesita conectar un servicio de recepción y probarlo.
 - Confirmar con Grupo Arpeco los datos y autorizaciones de la sección siguiente.
 - Cuando el sitio oficial esté aprobado, retirar el aviso de prototipo y `noindex` desde `prototipo/build.py`, regenerar las páginas y revisar las seis páginas resultantes.
-- No hay remoto Git configurado. Para subir este repositorio más adelante, crear `arpeco-web` en GitHub y agregarlo como `origin`.
+- Repositorio remoto: [pragmastudi0/grupoarpeco](https://github.com/pragmastudi0/grupoarpeco).
 
 ## Regenerar capturas y PDF
 
