@@ -152,9 +152,9 @@ inicio = f'''
         <a class="btn btn-borde" href="proyectos.html">Ver proyectos</a>
       </div>
       <div class="hero-datos">
-        <div><strong>Desde 2009</strong>en actividad</div>
-        <div><strong>+11.000 m²</strong>construidos</div>
-        <div><strong>4 talleres</strong>propios</div>
+        <div><strong data-count="2009" data-prefix="Desde ">Desde 2009</strong>en actividad</div>
+        <div><strong data-count="11000" data-prefix="+" data-suffix=" m²">+11.000 m²</strong>construidos</div>
+        <div><strong data-count="4" data-suffix=" talleres">4 talleres</strong>propios</div>
       </div>
     </div>
     <div class="isotipo" aria-label="Proyectos de Grupo Arpeco">
@@ -392,9 +392,9 @@ nosotros = f'''
 <section class="seccion" style="padding-top:0">
   <div class="wrap">
     <div class="cifras">
-      <div><strong>2009</strong>Año de inicio</div>
-      <div><strong>+11.000 m²</strong>de instalaciones construidas</div>
-      <div><strong>4</strong>talleres propios: diseño, herrería, carpintería y gráfica</div>
+      <div><strong data-count="2009">2009</strong>Año de inicio</div>
+      <div><strong data-count="11000" data-prefix="+" data-suffix=" m²">+11.000 m²</strong>de instalaciones construidas</div>
+      <div><strong data-count="4">4</strong>talleres propios: diseño, herrería, carpintería y gráfica</div>
     </div>
   </div>
 </section>

@@ -12,6 +12,38 @@ menuBtn.addEventListener("click", () => setMenu(!nav.classList.contains("abierto
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
 window.addEventListener("resize", () => { if (window.innerWidth > 960) setMenu(false); });
 
+// Las cifras cuentan una sola vez cuando entran en pantalla.
+const cifras = document.querySelectorAll("[data-count]");
+const reducirMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const mostrarCifra = (elemento) => {
+  const final = Number(elemento.dataset.count);
+  const inicio = performance.now();
+  const duracion = reducirMovimiento ? 0 : 900;
+  const prefijo = elemento.dataset.prefix || "";
+  const sufijo = elemento.dataset.suffix || "";
+  const actualizar = (ahora) => {
+    const progreso = duracion ? Math.min((ahora - inicio) / duracion, 1) : 1;
+    const suave = 1 - (1 - progreso) ** 3;
+    const actual = Math.round(final * suave);
+    elemento.textContent = `${prefijo}${actual.toLocaleString("es-AR")}${sufijo}`;
+    if (progreso < 1) requestAnimationFrame(actualizar);
+  };
+  requestAnimationFrame(actualizar);
+};
+if ("IntersectionObserver" in window) {
+  const observadorCifras = new IntersectionObserver((entradas, observador) => {
+    entradas.forEach((entrada) => {
+      if (entrada.isIntersecting) {
+        mostrarCifra(entrada.target);
+        observador.unobserve(entrada.target);
+      }
+    });
+  }, { threshold: 0.35 });
+  cifras.forEach((cifra) => observadorCifras.observe(cifra));
+} else {
+  cifras.forEach(mostrarCifra);
+}
+
 const params = new URLSearchParams(location.search);
 
 // Filtros de proyectos
