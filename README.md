@@ -11,6 +11,8 @@ La identidad visual está en `site/brand/`: logotipos, isotipo, favicons, iconos
 3. Desplegar. `vercel.json` configura `site/` como **Output Directory**. No se necesitan variables de entorno ni comando de build.
 4. Cuando el dominio esté listo, agregarlo en **Settings → Domains** del proyecto en Vercel y configurar los DNS que indique Vercel.
 
+Vercel Web Analytics carga desde `/_vercel/insights/script.js`. Habilitar **Analytics** en el panel del proyecto; Vercel publica esa ruta en el siguiente despliegue. El paquete `@vercel/analytics` está declarado en `package.json`.
+
 La página inicial se sirve en `/`. Las otras páginas usan URLs `.html` enlazadas entre sí.
 Las rutas principales del sitio anterior (`/stands/`, `/locales/`, `/nosotros/`, `/formulario/`) redirigen a las páginas nuevas.
 

@@ -137,6 +137,10 @@ def page(fname, title, desc, body, current=None):
   </div>
 </footer>
 <a class="wa-flotante" href="{wa()}" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">{ICON_WA}</a>
+<script>
+  window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
