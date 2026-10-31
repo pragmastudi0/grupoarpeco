@@ -2,6 +2,8 @@
 
 Sitio estático de Grupo Arpeco: seis páginas en HTML, CSS y JavaScript, con imágenes y fuente locales. El código fuente y los archivos publicados están en `site/`. La auditoría y la propuesta de rediseño de octubre de 2026 permanecen en `auditoria/` y `entregables/` como documentación histórica; Vercel no los publica.
 
+La identidad visual está en `site/brand/`: logotipos, isotipo, favicons, iconos para dispositivos, imagen social, paleta y tipografía Archivo. El sitio usa el logotipo principal en el encabezado y su versión blanca en el pie.
+
 ## Desplegar en Vercel
 
 1. Importar [pragmastudi0/grupoarpeco](https://github.com/pragmastudi0/grupoarpeco) en Vercel.

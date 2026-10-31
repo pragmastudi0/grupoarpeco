@@ -87,14 +87,24 @@ def page(fname, title, desc, body, current=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#005994">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Grupo Arpeco">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:image" content="https://grupo-arpeco.com/brand/social/og-image.png">
+<link rel="icon" href="/brand/icons/favicon.ico" sizes="any">
+<link rel="icon" href="/brand/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/brand/icons/apple-touch-icon.png">
+<link rel="manifest" href="/brand/icons/site.webmanifest">
+<link rel="preload" href="/brand/fonts/archivo-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/brand/brand-tokens.css">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="icon" href="img/isotipo.png">
 </head>
 <body>
 <header class="header">
   <div class="wrap">
-    <a class="logo" href="index.html"><img src="img/logo.png" alt="Grupo Arpeco, inicio" width="98" height="44"></a>
+    <a class="logo" href="/" aria-label="Grupo Arpeco, inicio"><img src="/brand/logos/logo-primary.svg" alt="Grupo Arpeco" width="115" height="40"></a>
     <nav class="nav" id="nav" aria-label="Principal">{nav}<a class="btn btn-primario nav-cta" href="contacto.html">Pedir presupuesto</a></nav>
     <a class="btn btn-primario" href="contacto.html">Pedir presupuesto</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">{ICON_MENU}</button>
@@ -106,7 +116,7 @@ def page(fname, title, desc, body, current=None):
 <footer class="footer">
   <div class="wrap">
     <div>
-      <img src="img/logo-blanco.png" alt="Grupo Arpeco" width="98" height="44">
+      <img src="/brand/logos/logo-white.svg" alt="Grupo Arpeco" width="139" height="48">
       <p>Diseño, fabricación y montaje de stands, locales comerciales e interiores. Desde 2009.</p>
     </div>
     <div>

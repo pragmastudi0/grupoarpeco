@@ -1,26 +1,18 @@
 /* Grupo Arpeco — sitio oficial */
-@font-face {
-  font-family: "Archivo";
-  src: url("../fonts/archivo-latin-wdth-normal.woff2") format("woff2-variations");
-  font-weight: 100 900;
-  font-stretch: 62% 125%;
-  font-display: swap;
-}
-
 :root {
-  --azul: #005994;
-  --azul-hover: #00477a;
-  --azul-profundo: #0F2A3D;
-  --grafito: #262626;
-  --grafito-2: #404040;
-  --texto-suave: #5b6168;
-  --acero: #E7EAEC;
-  --linea: #d3d8dc;
-  --blanco: #fff;
-  --wa: #1f9e55;
-  --radio: 10px;
-  --ancho: 1240px;
-  --gutter: clamp(16px, 4vw, 40px);
+  --azul: var(--arp-azul);
+  --azul-hover: var(--arp-azul-hover);
+  --azul-profundo: var(--arp-azul-profundo);
+  --grafito: var(--arp-grafito);
+  --grafito-2: var(--arp-grafito-2);
+  --texto-suave: var(--arp-texto-suave);
+  --acero: var(--arp-acero);
+  --linea: var(--arp-linea);
+  --blanco: var(--arp-blanco);
+  --wa: var(--arp-whatsapp);
+  --radio: var(--arp-r-md);
+  --ancho: var(--arp-ancho);
+  --gutter: var(--arp-gutter);
 }
 
 * { box-sizing: border-box; }
@@ -81,7 +73,7 @@ p { margin: 0 0 1em; max-width: 64ch; }
 /* Header */
 .header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linea); }
 .header .wrap { display: flex; align-items: center; gap: 32px; height: 76px; }
-.header .logo img { height: 54px; width: auto; }
+.header .logo img { height: 40px; width: 115px; }
 .nav { display: flex; gap: 28px; margin-left: auto; }
 .nav a { color: var(--grafito); text-decoration: none; font-weight: 540; font-size: 16px; padding: 6px 0; border-bottom: 2px solid transparent; }
 .nav a:hover { color: var(--azul); }
@@ -95,7 +87,7 @@ p { margin: 0 0 1em; max-width: 64ch; }
   .nav, .header .btn-primario { display: none; }
   .menu-btn { display: inline-flex; align-items: center; justify-content: center; }
   .header .wrap { height: 64px; }
-  .header .logo img { height: 36px; }
+  .header .logo img { height: 34px; width: 98px; }
   .nav.abierto {
     display: flex; flex-direction: column; gap: 0;
     position: absolute; top: 100%; left: 0; right: 0;
@@ -289,7 +281,7 @@ fieldset.campo { border: 0; padding: 0; margin: 0; }
 /* Footer */
 .footer { background: var(--grafito); color: #c9cdd1; padding: 56px 0 32px; font-size: 15.5px; }
 .footer .wrap { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px; }
-.footer img { height: 44px; width: auto; margin-bottom: 16px; }
+.footer img { height: 48px; width: auto; margin-bottom: 16px; }
 .footer h2 { font-size: 15.5px; font-stretch: 100%; font-weight: 640; color: #fff; margin-bottom: 12px; letter-spacing: 0; }
 .footer ul { list-style: none; margin: 0; padding: 0; }
 .footer li { margin-bottom: 8px; }

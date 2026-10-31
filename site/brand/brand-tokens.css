@@ -1,0 +1,129 @@
+/* ==========================================================================
+   Grupo Arpeco — tokens de marca
+   Identidad «Planta» · PRAGMA Studio · octubre 2026
+   Importar antes de los estilos del sitio:  <link rel="stylesheet" href="/brand/brand-tokens.css">
+   ========================================================================== */
+
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/archivo-variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+
+:root {
+  /* ---- Color: marca ---- */
+  --arp-azul: #005994;            /* primario: isotipo, acciones, enlaces */
+  --arp-azul-hover: #00477A;      /* estado hover/pressed del primario */
+  --arp-azul-profundo: #0F2A3D;   /* secundario: secciones oscuras, footer alternativo */
+  --arp-celeste: #7FB3D9;         /* acento frío, solo sobre fondos oscuros */
+  --arp-ambar: #E3A42B;           /* acento de obra: detalles y marcas, nunca texto sobre blanco */
+
+  /* ---- Color: neutros ---- */
+  --arp-grafito: #25282B;         /* texto principal, logotipo */
+  --arp-grafito-2: #3F454A;       /* texto secundario fuerte */
+  --arp-texto-suave: #5B6168;     /* texto de apoyo, metadatos */
+  --arp-linea: #D3D8DC;           /* bordes y divisores */
+  --arp-acero: #E7EAEC;           /* superficies y bandas */
+  --arp-niebla: #F1F3F4;          /* fondo alternativo muy claro */
+  --arp-blanco: #FFFFFF;
+
+  /* ---- Color: estados y canales ---- */
+  --arp-error: #B3261E;
+  --arp-exito: #1F7A4A;
+  --arp-exito-fondo: #E8F3EC;
+  --arp-whatsapp: #17834A;        /* verde WhatsApp ajustado: texto blanco AA (4,8:1) */
+  --arp-whatsapp-hover: #126B3C;
+
+  /* ---- Roles (usar estos en componentes) ---- */
+  --arp-fondo: var(--arp-blanco);
+  --arp-fondo-alt: var(--arp-acero);
+  --arp-fondo-oscuro: var(--arp-azul-profundo);
+  --arp-texto: var(--arp-grafito);
+  --arp-texto-2: var(--arp-texto-suave);
+  --arp-texto-invertido: var(--arp-blanco);
+  --arp-texto-invertido-2: #B9CAD6;
+  --arp-accion: var(--arp-azul);
+  --arp-accion-hover: var(--arp-azul-hover);
+  --arp-borde: var(--arp-linea);
+  --arp-foco: var(--arp-azul);
+
+  /* ---- Tipografía ---- */
+  --arp-fuente: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --arp-titulo-ancho: 72%;        /* font-stretch para titulares */
+  --arp-titulo-peso: 760;
+  --arp-texto-peso: 400;
+  --arp-ui-peso: 620;             /* botones, etiquetas, navegación */
+  --arp-titulo-interlineado: 1.02;
+  --arp-texto-interlineado: 1.6;
+  --arp-titulo-tracking: -0.01em;
+
+  /* Escala fluida: mobile (390 px) → desktop (1440 px) */
+  --arp-t-display: clamp(44px, 6.4vw + 19px, 92px);   /* H1 */
+  --arp-t-h2: clamp(34px, 2.3vw + 25px, 58px);
+  --arp-t-h3: clamp(24px, 0.6vw + 22px, 30px);
+  --arp-t-h4: 21px;
+  --arp-t-lead: clamp(18px, 0.3vw + 17px, 21px);
+  --arp-t-body: clamp(17px, 0.1vw + 16.6px, 18px);
+  --arp-t-small: 15px;
+  --arp-t-caption: 13px;
+  --arp-medida: 64ch;             /* largo máximo de línea */
+
+  /* ---- Espaciado (base 4 px) ---- */
+  --arp-s-1: 4px;
+  --arp-s-2: 8px;
+  --arp-s-3: 12px;
+  --arp-s-4: 16px;
+  --arp-s-5: 24px;
+  --arp-s-6: 32px;
+  --arp-s-7: 48px;
+  --arp-s-8: 64px;
+  --arp-s-9: 96px;
+  --arp-s-10: 128px;
+  --arp-seccion: clamp(56px, 8vw, 112px);
+  --arp-gutter: clamp(16px, 4vw, 40px);
+  --arp-ancho: 1240px;
+  --arp-gap-modulo: 12px;         /* separación entre módulos de foto (= la ranura del isotipo) */
+
+  /* ---- Radios: derivados del módulo del isotipo (0,55 u) ---- */
+  --arp-r-xs: 4px;    /* etiquetas */
+  --arp-r-sm: 8px;    /* campos de formulario */
+  --arp-r-md: 10px;   /* botones, tarjetas, fotos */
+  --arp-r-lg: 18px;   /* módulos de foto grandes (hero) */
+  --arp-r-pill: 999px;/* chips y filtros */
+
+  /* ---- Líneas y sombras ---- */
+  --arp-borde-fino: 1px solid var(--arp-linea);
+  --arp-borde-campo: 1.5px solid #B9C1C7;
+  --arp-sombra-flotante: 0 6px 18px rgba(15, 42, 61, 0.22); /* solo elementos flotantes (WhatsApp, menú) */
+
+  /* ---- Movimiento ---- */
+  --arp-dur: 150ms;
+  --arp-ease: cubic-bezier(0.2, 0, 0, 1);
+
+  /* ---- Recursos ----
+     Un url() relativo dentro de una variable se resuelve contra la hoja que la USA, no contra este
+     archivo. Por eso las variables usan rutas absolutas desde la raíz del sitio (/brand/...) y las
+     clases .arp-patron, .arp-patron-oscuro y .arp-fondo-decorativo (abajo) usan rutas relativas
+     a este archivo: funcionan en cualquier carpeta. */
+  --arp-patron: url("/brand/patterns/brand-pattern.svg");
+  --arp-patron-oscuro: url("/brand/patterns/brand-pattern-dark.svg");
+  --arp-fondo-decorativo: url("/brand/backgrounds/brand-background.webp");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --arp-dur: 0ms; }
+}
+
+/* ---- Utilidades mínimas de marca (opcionales) ---- */
+.arp-patron { background-image: url("patterns/brand-pattern.svg"); background-size: 160px 160px; }
+.arp-patron-oscuro { background-color: var(--arp-azul-profundo); background-image: url("patterns/brand-pattern-dark.svg"); background-size: 160px 160px; }
+.arp-fondo-decorativo { background-color: var(--arp-niebla); background-image: url("backgrounds/brand-background.webp"); background-position: right center; background-size: cover; background-repeat: no-repeat; }
+.arp-titulo {
+  font-family: var(--arp-fuente);
+  font-stretch: var(--arp-titulo-ancho);
+  font-weight: var(--arp-titulo-peso);
+  line-height: var(--arp-titulo-interlineado);
+  letter-spacing: var(--arp-titulo-tracking);
+}
