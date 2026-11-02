@@ -72,12 +72,16 @@ function json(data: unknown, status: number, headers: Record<string, string>): R
   })
 }
 
-export default async function handler(req: Request): Promise<Response> {
+// Preflight CORS. Export con nombre de método = Web Handler reconocido por Vercel
+// (el `export default (req)` se interpretaba como firma Node `(req,res)` y Vercel
+// ignoraba el Response devuelto → la función colgaba hasta el timeout de 300 s).
+export function OPTIONS(): Response {
+  return new Response(null, { status: 204, headers: cors(process.env.WEB_ORIGIN) })
+}
+
+export async function POST(req: Request): Promise<Response> {
   const webOrigin = process.env.WEB_ORIGIN
   const corsHeaders = cors(webOrigin)
-
-  if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders })
-  if (req.method !== 'POST') return json({ error: 'method_not_allowed' }, 405, corsHeaders)
 
   const url = process.env.SUPABASE_URL
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
