@@ -97,34 +97,3 @@ export function useAssignableUsers(enabled = true) {
     },
   })
 }
-
-/**
- * Invita un usuario vía la función de servidor /api/invite (usa service_role).
- * Requiere el deploy en Vercel; en `vite dev` local no hay /api.
- */
-export function useInviteUser() {
-  const qc = useQueryClient()
-  return useMutation({
-    mutationFn: async (input: {
-      email: string
-      display_name: string
-      role: RoleCode
-      second_approver?: string
-    }) => {
-      const { data: sessionData } = await supabase.auth.getSession()
-      const token = sessionData.session?.access_token
-      if (!token) throw new Error('Sesión no disponible')
-      const res = await fetch('/api/invite', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
-        body: JSON.stringify(input),
-      })
-      if (!res.ok) {
-        const detail = await res.json().catch(() => null)
-        throw new Error(detail?.error ?? `Error ${res.status} al invitar`)
-      }
-      return res.json()
-    },
-    onSuccess: () => qc.invalidateQueries({ queryKey: usersKey }),
-  })
-}

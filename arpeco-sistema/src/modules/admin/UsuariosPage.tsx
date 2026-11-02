@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Plus, UserPlus } from 'lucide-react'
+import { Plus } from 'lucide-react'
 import { useAuth } from '@/modules/auth/useAuth'
 import { ROLES, ROLE_LABELS, type RoleCode } from '@/shared/auth/roles'
 import { Badge } from '@/shared/ui/badge'
@@ -8,14 +8,11 @@ import { Card } from '@/shared/ui/card'
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from '@/shared/ui/dialog'
 import { Field } from '@/shared/ui/field'
-import { Input } from '@/shared/ui/input'
 import { PageHeader } from '@/shared/ui/page-header'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/shared/ui/select'
 import { cn } from '@/shared/lib/utils'
@@ -24,7 +21,6 @@ import { PermisosIndividualesPanel } from './PermisosIndividualesPanel'
 import { RolesPanel } from './RolesPanel'
 import {
   useGrantRole,
-  useInviteUser,
   useRevokeRole,
   useSetUserActive,
   useUsersQuery,
@@ -84,10 +80,6 @@ function UsuariosTab() {
 
   return (
     <div>
-      <div className="mb-4 flex justify-end">
-        <InvitarUsuarioDialog />
-      </div>
-
       {query.isPending && <LoadingState label="Cargando usuarios…" />}
       {query.isError && (
         <ErrorRetry
@@ -100,7 +92,7 @@ function UsuariosTab() {
         (query.data.length === 0 ? (
           <EmptyState
             title="Sin usuarios"
-            description="Invitá al primer usuario desde Dirección."
+            description="Los usuarios se crean desde la base de datos."
           />
         ) : (
           <Card className="overflow-hidden">
@@ -171,129 +163,6 @@ function UsuariosTab() {
           </Card>
         ))}
     </div>
-  )
-}
-
-function InvitarUsuarioDialog() {
-  const { user } = useAuth()
-  const invite = useInviteUser()
-  const users = useUsersQuery()
-  const [open, setOpen] = useState(false)
-  const [form, setForm] = useState({ email: '', display_name: '', role: 'seller' as RoleCode })
-  const [approver, setApprover] = useState('')
-  const [error, setError] = useState<string | null>(null)
-  const [ok, setOk] = useState(false)
-
-  const directions = (users.data ?? []).filter(
-    (u) => u.roles.includes('direction') && u.id !== user?.id,
-  )
-  const needsApprover = HIGH_PRIVILEGE.includes(form.role)
-
-  const submit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setError(null)
-    setOk(false)
-    if (!form.email || !form.display_name) return setError('Completá email y nombre')
-    if (needsApprover && !approver)
-      return setError('Rol de alto privilegio: elegí un segundo aprobador')
-    try {
-      await invite.mutateAsync({
-        email: form.email.trim(),
-        display_name: form.display_name.trim(),
-        role: form.role,
-        second_approver: needsApprover ? approver : undefined,
-      })
-      setOk(true)
-      setForm({ email: '', display_name: '', role: 'seller' })
-      setApprover('')
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'No se pudo invitar')
-    }
-  }
-
-  return (
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTrigger asChild>
-        <Button>
-          <UserPlus /> Invitar usuario
-        </Button>
-      </DialogTrigger>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>Invitar usuario</DialogTitle>
-          <DialogDescription>
-            Se envía una invitación por email; el usuario nace inactivo y se activa al aceptarla.
-          </DialogDescription>
-        </DialogHeader>
-        <form onSubmit={submit} className="flex flex-col gap-4">
-          <Field label="Email">
-            <Input
-              type="email"
-              value={form.email}
-              onChange={(e) => setForm({ ...form, email: e.target.value })}
-            />
-          </Field>
-          <Field label="Nombre">
-            <Input
-              value={form.display_name}
-              onChange={(e) => setForm({ ...form, display_name: e.target.value })}
-            />
-          </Field>
-          <Field label="Rol">
-            <Select
-              value={form.role}
-              onValueChange={(v) => setForm({ ...form, role: v as RoleCode })}
-            >
-              <SelectTrigger>
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                {Object.values(ROLES).map((r) => (
-                  <SelectItem key={r} value={r}>
-                    {ROLE_LABELS[r]}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </Field>
-          {needsApprover && (
-            <Field
-              label="Segundo aprobador (Dirección)"
-              hint="Requerido para roles de alto privilegio"
-            >
-              <Select value={approver} onValueChange={setApprover}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Elegí una Dirección…" />
-                </SelectTrigger>
-                <SelectContent>
-                  {directions.map((d) => (
-                    <SelectItem key={d.id} value={d.id}>
-                      {d.display_name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </Field>
-          )}
-          {error && (
-            <p className="rounded-md bg-destructive/10 p-2 text-sm text-destructive" role="alert">
-              {error}
-            </p>
-          )}
-          {ok && (
-            <p className="rounded-md bg-success/10 p-2 text-sm text-success" role="status">
-              Invitación enviada.
-            </p>
-          )}
-          <DialogFooter>
-            <Button type="submit" disabled={invite.isPending}>
-              {invite.isPending && <Spinner />}
-              Enviar invitación
-            </Button>
-          </DialogFooter>
-        </form>
-      </DialogContent>
-    </Dialog>
   )
 }
 
