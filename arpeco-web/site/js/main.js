@@ -74,7 +74,7 @@ const form = document.getElementById("form-presupuesto");
 if (form) {
   // Endpoint del CRM que registra la consulta como Oportunidad "Nueva".
   // Reemplazar por la URL pública real del CRM tras desplegarlo en Vercel.
-  const CRM_ENDPOINT = "https://TU-CRM.vercel.app/api/lead-web";
+  const CRM_ENDPOINT = "https://grupoarpeco.vercel.app/api/lead-web";
 
   const tipo = params.get("tipo");
   const radio = [...form.querySelectorAll('input[name="tipo"]')].find((r) => r.value === tipo);
