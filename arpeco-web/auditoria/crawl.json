@@ -1,0 +1,1542 @@
+{
+ "pages": {
+  "https://grupo-arpeco.com/": {
+   "title": "Inicio - Grupo Arpeco",
+   "description": null,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "canonical": "https://grupo-arpeco.com/",
+   "lang": "es",
+   "viewport": "width=device-width, initial-scale=1",
+   "og_title": "Inicio - Grupo Arpeco",
+   "h1": [
+    "Inicio"
+   ],
+   "h2": [],
+   "h3": [],
+   "links": [
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Grupo Arpeco"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "INICIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": "SERVICIOS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "NOSOTROS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "FORMULARIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    },
+    {
+     "href": "https://www.instagram.com/grupo_arpeco/",
+     "text": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/GrupoArpeco",
+     "text": "Facebook"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=register",
+     "text": "Créer un compte"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fgrupo-arpeco.com%2F",
+     "text": "Lost your password?"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/#",
+     "text": ""
+    }
+   ],
+   "images": [
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 300,
+     "h": 135,
+     "dw": 300
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 235,
+     "h": 105,
+     "dw": 235
+    }
+   ],
+   "forms": [
+    {
+     "action": "https://grupo-arpeco.com/#wpcf7-f11-o1",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "email:your-email[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "ref: <Node>",
+     "fields": [
+      "text:username",
+      "password:password",
+      "submit:",
+      "hidden:action",
+      "hidden:security-login",
+      "hidden:_wp_http_referer"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/",
+     "fields": [
+      "search:s[label]",
+      "submit:"
+     ]
+    }
+   ],
+   "tel": [],
+   "mail": [],
+   "whatsapp": [],
+   "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://grupo-arpeco.com/\",\"url\":\"https://grupo-arpeco.com/\",\"name\":\"Inicio - Grupo Arpeco\",\"isPartOf\":{\"@id\":\"https://grupo-arpeco.com/#website\"},\"datePublished\":\"2022-07-07T16:15:41+00:00\",\"dateModified\":\"2023-03-29T18:30:54+00:00\",\"breadcrumb\":{\"@id\":\"https://grupo-arpeco.com/#breadcrumb\"},\"inLanguage\":\"es\",\"potentialAction\":["
+   ],
+   "text": "INICIO\nSERVICIOS\nNOSOTROS\nFORMULARIO\nSTANDS CUSTOMIZADOS\n\nLocales\n\nLocales\n\nInteriores\n\nStand\n\nStand\n\nPropiedad\n\nDeseo recibir novedades \n\nInstagram\n \nFacebook",
+   "generator": "WordPress 6.8.1",
+   "scripts": [
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "https://grupo-arpeco.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+    "https://grupo-arpeco.com/wp-includes/js/wp-util.min.js?ver=6.8.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/main.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/skip-link-focus-fix.min.js?ver=20130115",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/login.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.18",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/sticky-header.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/search-popup.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/nav-mobile.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/vendor/js/gsap.min.js?ver=3.3.0",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/vendor/js/SplitText.min.js?ver=3.3.0",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/bdt-uikit.min.js?ver=3.2",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/modules/ps-dragon.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/prime-slider-site.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/elementor-frontend.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+   ],
+   "docHeight": 2672,
+   "status": 200,
+   "load_s": 5.06,
+   "final_url": "https://grupo-arpeco.com/",
+   "requests": 88,
+   "bytes": 4355648,
+   "failed": [],
+   "img_bytes": 3830702
+  },
+  "https://grupo-arpeco.com/stands/": {
+   "title": "Stands - Grupo Arpeco",
+   "description": "Encens Palo Santo naturel. Produit par la communauté de Minga Minga au nord du Pérou. Boîte de 10 cônes. Achetez ici.",
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "canonical": "https://grupo-arpeco.com/stands/",
+   "lang": "es",
+   "viewport": "width=device-width, initial-scale=1",
+   "og_title": "Stands - Grupo Arpeco",
+   "h1": [
+    "Stands"
+   ],
+   "h2": [],
+   "h3": [],
+   "links": [
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Grupo Arpeco"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "INICIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": "SERVICIOS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "NOSOTROS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "FORMULARIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://www.instagram.com/grupo_arpeco/",
+     "text": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/GrupoArpeco",
+     "text": "Facebook"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=register",
+     "text": "Créer un compte"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fgrupo-arpeco.com%2Fstands%2F",
+     "text": "Lost your password?"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands/#",
+     "text": ""
+    }
+   ],
+   "images": [
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 300,
+     "h": 135,
+     "dw": 300
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_KAWASAKI_07.jpg",
+     "alt": "N_KAWASAKI_07",
+     "w": 1944,
+     "h": 1296,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_BAJAJ_03a.jpg",
+     "alt": "N_BAJAJ_03a",
+     "w": 1878,
+     "h": 1236,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_KAWASAKI_07.jpg",
+     "alt": "N_KAWASAKI_07",
+     "w": 1944,
+     "h": 1296,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_BAJAJ_03a.jpg",
+     "alt": "N_BAJAJ_03a",
+     "w": 1878,
+     "h": 1236,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_4761-768x1024.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 1024,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/J_01_CONSULTORIOS-768x439.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 439,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/Imagen1-768x432.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 432,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/6ae71b94-9c6c-4065-af72-be954af178c1-768x432.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 191,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/9c92b177-b570-4914-8b61-a6900ca73aab-768x432.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 191,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/P_02_BAUSCH_LOOMB-400x400.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 340,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/L_04_CASINO-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/D_01_COMPLEJOS_DUPLEX-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/H_01_DISTRITO_FEDERAL-2-768x540.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 239,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/D_02_ROMERO_JURI_VIAJES-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/Copia-de-E_01_FERNIPLAST-400x400.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 340,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/C_06_CARNICERIA_VERDULERIA-768x545.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 241,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_3219-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_4267-768x512.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 226,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_4270-768x542.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 239,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/WhatsApp-Image-2022-08-30-at-10.37.02-PM-768x576.jpeg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_0252-768x1024.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 453,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_0313-768x1024.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 453,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_4764-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2025/02/IMG_4772-768x1024.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 453,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 235,
+     "h": 105,
+     "dw": 235
+    }
+   ],
+   "forms": [
+    {
+     "action": "https://grupo-arpeco.com/stands/#wpcf7-f11-o1",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "email:your-email[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "ref: <Node>",
+     "fields": [
+      "text:username",
+      "password:password",
+      "submit:",
+      "hidden:action",
+      "hidden:security-login",
+      "hidden:_wp_http_referer"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/",
+     "fields": [
+      "search:s[label]",
+      "submit:"
+     ]
+    }
+   ],
+   "tel": [],
+   "mail": [],
+   "whatsapp": [],
+   "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://grupo-arpeco.com/stands/\",\"url\":\"https://grupo-arpeco.com/stands/\",\"name\":\"Stands - Grupo Arpeco\",\"isPartOf\":{\"@id\":\"https://grupo-arpeco.com/#website\"},\"datePublished\":\"2023-02-28T17:51:00+00:00\",\"dateModified\":\"2025-02-05T17:05:03+00:00\",\"description\":\"Encens Palo Santo naturel. Produit par la communauté de Minga Minga "
+   ],
+   "text": "INICIO\nSERVICIOS\nNOSOTROS\nFORMULARIO\nAnterior\nSiguiente\n\nGrupo Arpeco es una empresa líder en el diseño y desarrollo de proyectos y legajos constructivos de stands y arquitectura publicitaria, comercial y residencial en toda la Argentina y países limítrofes.\n\nDesde nuestra fundación, nos hemos enfocado en ofrecer soluciones integrales y personalizadas para cada uno de nuestros clientes, brindando servicios de gerenciamiento, administración, dirección técnica e instalación de proyectos llave en mano, con la máxima calidad y eficacia.\n\nEn Grupo Arpeco, contamos con un equipo de profesionales altamente capacitados y especializados en diferentes áreas, lo que nos permite abarcar todos los aspectos del desarrollo de un proyecto de manera integral. Además, contamos con una fábrica propia y stock de todo tipo de elementos y mobiliarios necesarios en la ejecución de los proyectos, lo que nos permite ser más eficientes y reducir los tiempos de espera en la entrega de los elementos necesarios para la construcción de los proyectos.\n\nNos enorgullece haber trabajado en proyectos para importantes empresas locales e internacionales, diseñando y construyendo espacios comerciales que se destacan en el mercado y atraen a los clientes. En el sector residencial, ofrecemos soluciones de diseño y construcción personalizadas para satisfacer las necesidades y deseos de nuestros clientes.\n\nAdemás, nos especializamos en el diseño y construcción de stands para exposiciones y ferias, ofreciendo soluciones innovadoras y atractivas que aseguran que nuestros clientes se destaquen en cualquier evento. Hemos tenido el privilegio de trabajar en importantes eventos nacionales e internacionales, brindando a nuestros clientes la oportunidad de destacarse y ganar nuevos clientes.\n\nEn Grupo Arpeco, nos esforzamos por mantenernos actualizados en las últimas tendencias y tecnologías de la industria, lo que nos permite ofrecer soluciones innovadoras y vanguardistas a nuestros clientes. Nuestro compromiso con la excelencia y la calidad en todos nuestros proyectos es lo que nos diferencia de nuestra competencia.\n\nDeseo recibir novedades \n\nInstagram\n \nFacebook",
+   "generator": "WordPress 6.8.1",
+   "scripts": [
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "https://grupo-arpeco.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+    "https://grupo-arpeco.com/wp-includes/js/wp-util.min.js?ver=6.8.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/main.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/skip-link-focus-fix.min.js?ver=20130115",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/login.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.18",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/vendor/jquery.isotope.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/vendor/magnific-popup/jquery.magnific-popup.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/sticky-header.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/search-popup.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/nav-mobile.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/bdt-uikit.min.js?ver=3.2",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/prime-slider-site.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/elementor-frontend.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"
+   ],
+   "docHeight": 3628,
+   "status": 200,
+   "load_s": 3.12,
+   "final_url": "https://grupo-arpeco.com/stands/",
+   "requests": 106,
+   "bytes": 4473082,
+   "failed": [],
+   "img_bytes": 3924777
+  },
+  "https://grupo-arpeco.com/locales/": {
+   "title": "Locales - Grupo Arpeco",
+   "description": "Encens Palo Santo naturel. Produit par la communauté de Minga Minga au nord du Pérou. Boîte de 10 cônes. Achetez ici.",
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "canonical": "https://grupo-arpeco.com/locales/",
+   "lang": "es",
+   "viewport": "width=device-width, initial-scale=1",
+   "og_title": "Locales - Grupo Arpeco",
+   "h1": [
+    "Locales"
+   ],
+   "h2": [],
+   "h3": [],
+   "links": [
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Grupo Arpeco"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "INICIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": "SERVICIOS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "NOSOTROS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "FORMULARIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://www.instagram.com/grupo_arpeco/",
+     "text": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/GrupoArpeco",
+     "text": "Facebook"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=register",
+     "text": "Créer un compte"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fgrupo-arpeco.com%2Flocales%2F",
+     "text": "Lost your password?"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales/#",
+     "text": ""
+    }
+   ],
+   "images": [
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 300,
+     "h": 135,
+     "dw": 300
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_KAWASAKI_07.jpg",
+     "alt": "N_KAWASAKI_07",
+     "w": 1944,
+     "h": 1296,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_BAJAJ_03a.jpg",
+     "alt": "N_BAJAJ_03a",
+     "w": 1878,
+     "h": 1236,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_KAWASAKI_07.jpg",
+     "alt": "N_KAWASAKI_07",
+     "w": 1944,
+     "h": 1296,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/N_BAJAJ_03a.jpg",
+     "alt": "N_BAJAJ_03a",
+     "w": 1878,
+     "h": 1236,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/J_01_CONSULTORIOS-768x439.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 439,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/Imagen1-768x432.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 432,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/H_01_DISTRITO_FEDERAL-2-768x540.jpg",
+     "alt": "",
+     "w": 768,
+     "h": 540,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/L_04_CASINO-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/P_02_BAUSCH_LOOMB-400x400.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 340,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/D_01_COMPLEJOS_DUPLEX-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/B_1_YOCONSTRUCTOR-768x913.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 404,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/Copia-de-E_01_FERNIPLAST-400x400.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 340,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/A_J_STAND_TRUJILLO_02-768x334.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 147,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/C_06_CARNICERIA_VERDULERIA-768x545.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 241,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/D_02_ROMERO_JURI_VIAJES-768x576.jpg",
+     "alt": "",
+     "w": 340,
+     "h": 254,
+     "dw": 340
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 235,
+     "h": 105,
+     "dw": 235
+    }
+   ],
+   "forms": [
+    {
+     "action": "https://grupo-arpeco.com/locales/#wpcf7-f11-o1",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "email:your-email[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "ref: <Node>",
+     "fields": [
+      "text:username",
+      "password:password",
+      "submit:",
+      "hidden:action",
+      "hidden:security-login",
+      "hidden:_wp_http_referer"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/",
+     "fields": [
+      "search:s[label]",
+      "submit:"
+     ]
+    }
+   ],
+   "tel": [],
+   "mail": [],
+   "whatsapp": [],
+   "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://grupo-arpeco.com/locales/\",\"url\":\"https://grupo-arpeco.com/locales/\",\"name\":\"Locales - Grupo Arpeco\",\"isPartOf\":{\"@id\":\"https://grupo-arpeco.com/#website\"},\"datePublished\":\"2023-02-28T18:31:24+00:00\",\"dateModified\":\"2023-03-06T07:57:06+00:00\",\"description\":\"Encens Palo Santo naturel. Produit par la communauté de Minga Min"
+   ],
+   "text": "INICIO\nSERVICIOS\nNOSOTROS\nFORMULARIO\nAnterior\nSiguiente\n\nGrupo Arpeco es una empresa dedicada al diseño y desarrollo de proyectos, con una vasta experiencia en la fabricación, stock propios y mantenimiento de todo tipo de elementos y mobiliarios necesarios en la ejecución de los proyectos, tanto en el ámbito publicitario como comercial y residencial.\n\nLa fabricación de elementos y mobiliarios personalizados es una parte esencial de los servicios que ofrece Grupo Arpeco. La empresa cuenta con un equipo de diseñadores y fabricantes altamente capacitados, que trabajan juntos para crear soluciones innovadoras y de alta calidad para cada proyecto. Desde stands publicitarios hasta mobiliario comercial y residencial, Grupo Arpeco ofrece una amplia variedad de opciones de diseño y materiales para satisfacer las necesidades específicas de cada cliente.\n\nAdemás de la fabricación, Grupo Arpeco también cuenta con un amplio stock propio de elementos y mobiliarios necesarios en la ejecución de los proyectos. Esto significa que la empresa puede responder rápidamente a las demandas de los clientes y ofrecer soluciones inmediatas en caso de emergencias o necesidades imprevistas.\n\nEl mantenimiento de los elementos y mobiliarios también es una parte fundamental del servicio que ofrece Grupo Arpeco. La empresa se encarga de la reparación y mantenimiento de todos los elementos y mobiliarios fabricados y/o instalados, asegurando su buen funcionamiento y prolongando su vida útil. Esto significa que los clientes pueden contar con el respaldo de Grupo Arpeco incluso después de la finalización del proyecto.\n\nLa capacidad de fabricación, stock propio y mantenimiento de Grupo Arpeco es una ventaja significativa para sus clientes. Al tener un control total sobre estos aspectos del proceso, la empresa puede garantizar la calidad y la eficiencia en la ejecución de cada proyecto. Además, esto se traduce en una mayor flexibilidad y capacidad de respuesta, lo que resulta en una experiencia de cliente satisfactoria y en la entrega de proyectos en tiempo y forma.\n\nDeseo recibir novedades \n\nInstagram\n \nFacebook",
+   "generator": "WordPress 6.8.1",
+   "scripts": [
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "https://grupo-arpeco.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+    "https://grupo-arpeco.com/wp-includes/js/wp-util.min.js?ver=6.8.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/main.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/skip-link-focus-fix.min.js?ver=20130115",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/login.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.18",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/vendor/jquery.isotope.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/vendor/magnific-popup/jquery.magnific-popup.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/sticky-header.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/search-popup.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/nav-mobile.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/bdt-uikit.min.js?ver=3.2",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/prime-slider-site.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/elementor-frontend.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"
+   ],
+   "docHeight": 2831,
+   "status": 200,
+   "load_s": 2.34,
+   "final_url": "https://grupo-arpeco.com/locales/",
+   "requests": 96,
+   "bytes": 3348996,
+   "failed": [],
+   "img_bytes": 2800691
+  },
+  "https://grupo-arpeco.com/nosotros/": {
+   "title": "Nosotros - Grupo Arpeco",
+   "description": null,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "canonical": "https://grupo-arpeco.com/nosotros/",
+   "lang": "es",
+   "viewport": "width=device-width, initial-scale=1",
+   "og_title": "Nosotros - Grupo Arpeco",
+   "h1": [
+    "Nosotros"
+   ],
+   "h2": [
+    "Nosotros"
+   ],
+   "h3": [],
+   "links": [
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Grupo Arpeco"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "INICIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/#",
+     "text": "SERVICIOS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "NOSOTROS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "FORMULARIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://www.instagram.com/grupo_arpeco/",
+     "text": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/GrupoArpeco",
+     "text": "Facebook"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=register",
+     "text": "Créer un compte"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fgrupo-arpeco.com%2Fnosotros%2F",
+     "text": "Lost your password?"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/#",
+     "text": ""
+    }
+   ],
+   "images": [
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 300,
+     "h": 135,
+     "dw": 300
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 235,
+     "h": 105,
+     "dw": 235
+    }
+   ],
+   "forms": [
+    {
+     "action": "https://grupo-arpeco.com/nosotros/#wpcf7-f11-o1",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "email:your-email[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "ref: <Node>",
+     "fields": [
+      "text:username",
+      "password:password",
+      "submit:",
+      "hidden:action",
+      "hidden:security-login",
+      "hidden:_wp_http_referer"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/",
+     "fields": [
+      "search:s[label]",
+      "submit:"
+     ]
+    }
+   ],
+   "tel": [],
+   "mail": [],
+   "whatsapp": [],
+   "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://grupo-arpeco.com/nosotros/\",\"url\":\"https://grupo-arpeco.com/nosotros/\",\"name\":\"Nosotros - Grupo Arpeco\",\"isPartOf\":{\"@id\":\"https://grupo-arpeco.com/#website\"},\"datePublished\":\"2020-02-07T01:44:53+00:00\",\"dateModified\":\"2024-04-09T13:59:17+00:00\",\"breadcrumb\":{\"@id\":\"https://grupo-arpeco.com/nosotros/#breadcrumb\"},\"inLangu"
+   ],
+   "text": "INICIO\nSERVICIOS\nNOSOTROS\nFORMULARIO\nNosotros\n\nGrupo Arpeco se inició en 2009 como una empresa especializada en diseño, gerenciamiento y construcción de arquitectura publicitaria, comercial y residencial. Constituido por un equipo de arquitectos y mano de obra especializada, hoy en día cuenta con sus propios talleres de diseño, herrería, carpintería y gráfica, equipado con equipos tecnológicos de ultima generación.\nReconocidos nacional e internacionalmente, y con más de 11.000 m2 de instalaciones construidas, en los últimos años nos hemos convertido en los líderes de la región en proyección y ejecución de Stands y Arquitectura publicitaria corporativa, institucional y expositiva, poniendo nuestro foco en las necesidades de nuestros clientes, en la comunicación y presencia de su imagen/marca, priorizando sus tiempos.\n\nDeseo recibir novedades \n\nInstagram\n \nFacebook",
+   "generator": "WordPress 6.8.1",
+   "scripts": [
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "https://grupo-arpeco.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+    "https://grupo-arpeco.com/wp-includes/js/wp-util.min.js?ver=6.8.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/main.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/skip-link-focus-fix.min.js?ver=20130115",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/login.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.18",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/sticky-header.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/search-popup.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/nav-mobile.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/bdt-uikit.min.js?ver=3.2",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/prime-slider-site.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/elementor-frontend.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+   ],
+   "docHeight": 1182,
+   "status": 200,
+   "load_s": 4.58,
+   "final_url": "https://grupo-arpeco.com/nosotros/",
+   "requests": 118,
+   "bytes": 1394057,
+   "failed": [],
+   "img_bytes": 355772
+  },
+  "https://grupo-arpeco.com/formulario/": {
+   "title": "Formulario - Grupo Arpeco",
+   "description": "Encens Palo Santo naturel. Produit par la communauté de Minga Minga au nord du Pérou. Boîte de 10 cônes. Achetez ici.",
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "canonical": "https://grupo-arpeco.com/formulario/",
+   "lang": "es",
+   "viewport": "width=device-width, initial-scale=1",
+   "og_title": "Formulario - Grupo Arpeco",
+   "h1": [
+    "Formulario"
+   ],
+   "h2": [],
+   "h3": [],
+   "links": [
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Grupo Arpeco"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "INICIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/#",
+     "text": "SERVICIOS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "NOSOTROS"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "FORMULARIO"
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://www.instagram.com/grupo_arpeco/",
+     "text": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/GrupoArpeco",
+     "text": "Facebook"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=register",
+     "text": "Créer un compte"
+    },
+    {
+     "href": "https://grupo-arpeco.com/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fgrupo-arpeco.com%2Fformulario%2F",
+     "text": "Lost your password?"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/#",
+     "text": ""
+    },
+    {
+     "href": "https://grupo-arpeco.com/",
+     "text": "Inicio"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/#",
+     "text": "Servicios"
+    },
+    {
+     "href": "https://grupo-arpeco.com/stands",
+     "text": "Stands"
+    },
+    {
+     "href": "https://grupo-arpeco.com/locales",
+     "text": "Locales"
+    },
+    {
+     "href": "https://grupo-arpeco.com/nosotros/",
+     "text": "Nosotros"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/",
+     "text": "Formulario"
+    },
+    {
+     "href": "https://grupo-arpeco.com/formulario/#",
+     "text": ""
+    }
+   ],
+   "images": [
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 300,
+     "h": 135,
+     "dw": 300
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/Imagen1-1536x864.jpg",
+     "alt": "",
+     "w": 1439,
+     "h": 809,
+     "dw": 1420
+    },
+    {
+     "src": "https://grupo-arpeco.com/wp-content/uploads/2023/02/grupo-arpeco-logo-300x135.png",
+     "alt": "",
+     "w": 235,
+     "h": 105,
+     "dw": 235
+    }
+   ],
+   "forms": [
+    {
+     "action": "https://grupo-arpeco.com/formulario/#wpcf7-f752-p9717-o1",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "text:Tomas[label]",
+      "text:Casiva[label]",
+      "tel:tel-793[label]",
+      "textarea:your-message[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/formulario/#wpcf7-f11-o2",
+     "fields": [
+      "hidden:_wpcf7",
+      "hidden:_wpcf7_version",
+      "hidden:_wpcf7_locale",
+      "hidden:_wpcf7_unit_tag",
+      "hidden:_wpcf7_container_post",
+      "hidden:_wpcf7_posted_data_hash",
+      "email:your-email[label]",
+      "submit:"
+     ]
+    },
+    {
+     "action": "ref: <Node>",
+     "fields": [
+      "text:username",
+      "password:password",
+      "submit:",
+      "hidden:action",
+      "hidden:security-login",
+      "hidden:_wp_http_referer"
+     ]
+    },
+    {
+     "action": "https://grupo-arpeco.com/",
+     "fields": [
+      "search:s[label]",
+      "submit:"
+     ]
+    }
+   ],
+   "tel": [],
+   "mail": [],
+   "whatsapp": [],
+   "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://grupo-arpeco.com/formulario/\",\"url\":\"https://grupo-arpeco.com/formulario/\",\"name\":\"Formulario - Grupo Arpeco\",\"isPartOf\":{\"@id\":\"https://grupo-arpeco.com/#website\"},\"datePublished\":\"2022-04-12T14:17:53+00:00\",\"dateModified\":\"2023-03-06T07:30:06+00:00\",\"description\":\"Encens Palo Santo naturel. Produit par la communauté de "
+   ],
+   "text": "INICIO\nSERVICIOS\nNOSOTROS\nFORMULARIO\n\nBienvenidos a nuestra empresa de diseño y desarrollo de proyectos y legajos constructivos de stands y arquitectura publicitaria, comercial y residencial. Nos enorgullece brindar nuestros servicios a toda Argentina y países limítrofes con la máxima calidad y eficacia.\n\nDesde nuestra fundación, nos hemos enfocado en ser líderes en el mercado de la arquitectura y diseño en toda la región. Nos esforzamos por brindar a nuestros clientes una amplia gama de servicios que cubren todas las necesidades que puedan surgir durante el proceso de construcción y diseño de cualquier proyecto.\n\nNuestro equipo está compuesto por profesionales altamente capacitados y especializados en diferentes áreas, lo que nos permite abarcar todos los aspectos del desarrollo de un proyecto de manera integral. Ofrecemos servicios de gerenciamiento, administración, dirección técnica e instalación de proyectos llave en mano, lo que significa que nuestros clientes pueden confiar en nosotros desde el principio hasta el final del proyecto, asegurándose de que se cumplan todos los plazos y objetivos.\n\nAdemás, contamos con una fábrica propia y stock de todo tipo de elementos y mobiliarios necesarios en la ejecución de los proyectos, lo que nos permite ser más eficientes y reducir los tiempos de espera en la entrega de los elementos necesarios para la construcción de los proyectos. También ofrecemos servicios de mantenimiento de todos los elementos y mobiliarios utilizados en nuestros proyectos, garantizando la durabilidad y calidad de los mismos.\n\nTus nombres \n\nTus apellidos \n\ngrupoarpeco [email* arqtomascasiva@gmail.com]\n\nTu teléfono\n\nDeseo recibir novedades \n\nInstagram\n \nFacebook",
+   "generator": "WordPress 6.8.1",
+   "scripts": [
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "https://grupo-arpeco.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.2",
+    "https://grupo-arpeco.com/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.7.1",
+    "https://grupo-arpeco.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+    "https://grupo-arpeco.com/wp-includes/js/wp-util.min.js?ver=6.8.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/main.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/skip-link-focus-fix.min.js?ver=20130115",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/login.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.18",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/sticky-header.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/search-popup.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/frontend/nav-mobile.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/bdt-uikit.min.js?ver=3.2",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+    "https://grupo-arpeco.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.4",
+    "https://grupo-arpeco.com/wp-content/plugins/bdthemes-prime-slider/assets/js/prime-slider-site.min.js?ver=3.4.1",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.5",
+    "https://grupo-arpeco.com/wp-content/themes/ekommart/assets/js/elementor-frontend.js?ver=1.9.3",
+    "https://grupo-arpeco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+   ],
+   "docHeight": 1999,
+   "status": 200,
+   "load_s": 2.64,
+   "final_url": "https://grupo-arpeco.com/formulario/",
+   "requests": 77,
+   "bytes": 883823,
+   "failed": [],
+   "img_bytes": 387139
+  }
+ },
+ "external": [
+  "https://www.facebook.com/GrupoArpeco",
+  "https://www.instagram.com/grupo_arpeco/"
+ ]
+}

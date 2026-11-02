@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+dist-ssr/
+
+# Entornos / secretos (nunca subir claves)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Tests / Playwright
+test-results/
+playwright-report/
+.playwright/
+capturas/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema / editores
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.local
